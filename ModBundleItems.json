@@ -1,0 +1,39 @@
+{
+  "bundles": {
+    "version": 1,
+    "itemsPrefix": "",
+    "itemsSuffix": "",
+    "items": [
+      {
+        "name": "ContraBossAddon",
+        "big": true,
+        "files": [
+          {
+            "sourceParent": ".",
+            "sourceTargetList": [
+              {
+                "source": "PlayerTemplate_FINAL_BAS.ini",
+                "target": "Data/INI/PlayerTemplate.ini"
+              },
+              {
+                "source": "ControlBarScheme_FINAL_BAS.ini",
+                "target": "Data/INI/ControlBarScheme.ini"
+              },
+              {
+                "source": "generals.csf",
+                "target": "Data/English/generals.csf"
+              }
+            ],
+            "params": {
+              "forceEOL": "\r\n"
+            }
+          }
+        ],
+        "onPreBuild": {
+          "script": "Scripts/Python/patch_boss_csf.py",
+          "function": "OnPreBuild"
+        }
+      }
+    ]
+  }
+}
