@@ -1,0 +1,16 @@
+{
+  "bundles": {
+    "version": 1,
+    "packsPrefix": "",
+    "packsSuffix": "",
+    "packs": [
+      {
+        "setGameLanguageOnInstall": "English",
+        "name": "ContraBossAddon",
+        "itemNames": [
+          "ContraBossAddon"
+        ]
+      }
+    ]
+  }
+}
