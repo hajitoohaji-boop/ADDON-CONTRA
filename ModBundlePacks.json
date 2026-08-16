@@ -6,9 +6,9 @@
     "packs": [
       {
         "setGameLanguageOnInstall": "English",
-        "name": "ContraBossAddon",
+        "name": "ZZZ_ContraBossAddon",
         "itemNames": [
-          "ContraBossAddon"
+          "ZZZ_ContraBossAddon"
         ]
       }
     ]
